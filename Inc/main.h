@@ -88,8 +88,6 @@ void Error_Handler(void);
 #define SUB_VERSION		1
 #define MODIFY_VERSION	2
 
-
-extern uint8_t write_protect_flag;
 extern uint8_t comm_indicate_flag;
 /* USER CODE END Private defines */
 

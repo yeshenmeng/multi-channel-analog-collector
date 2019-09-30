@@ -95,7 +95,6 @@ void IoT_SetProp(iot_object_t *sensor);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 modbus_comm_services_t * comm_service;
-uint8_t write_protect_flag = 0; //属性的写保护标志（不包含地址属性）：0表示写保护打开，1表示写保护关闭
 uint8_t comm_indicate_flag = 0; //通信指示标志：1表示接收数据解析失败，2表示接收数据解析成功
 /* USER CODE END 0 */
 

@@ -2,8 +2,8 @@
 #include "stdlib.h"
 #include "main.h"
 
-
 IoT_dev_t IoT_dev;
+static uint8_t write_protect_flag = 0; //属性的写保护标志（不包含地址属性）：0表示写保护打开，1表示写保护关闭
 
 uint8_t IoT_SetChStatus(uint8_t ch_no, ch_status status)
 {
